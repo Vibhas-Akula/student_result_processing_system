@@ -1,0 +1,28 @@
+                                                                                   STUDENT-RESULTS                                                                                    
+
+ID         NAME                     SUBJECT-1                    SUBJECT-2                    SUBJECT-3                    SUBJECT-4                    SUBJECT-5                 CGPA
+                          MINOR  MAJOR  TOTAL  GRADE    MINOR  MAJOR  TOTAL  GRADE    MINOR  MAJOR  TOTAL  GRADE    MINOR  MAJOR  TOTAL  GRADE    MINOR  MAJOR  TOTAL  GRADE    
+25MCMI11   Vibhas         33     50     83     A        29     46     75     A        30     49     79     A        34     56     90     O        27     50     77     A          8.40
+23MCPC47   Rohan          37     58     95     O        12     45     57     C        40     60     100    O        0      23     23     F        28     54     82     A          6.60
+23MCMI12   Meera          15     60     75     A        40     32     72     B+       7      0      7      F        33     59     92     O        22     41     63     B          6.20
+24MCPC19   Arjun          0      60     60     B        39     18     57     C        25     55     80     A        40     0      40     F        12     49     61     B          5.00
+24MCMT03   Neha           31     60     91     O        8      22     30     F        40     60     100    O        19     35     54     D        27     44     71     B+         6.20
+24MCMI16   Kiran          14     57     71     B+       40     12     52     D        3      60     63     B        28     0      28     F        36     48     84     A          5.00
+25MCMT45   Sia            40     60     100    O        9      33     42     F        22     60     82     A        0      0      0      F        35     41     76     A          5.20
+24MCPC11   Ishan          18     60     78     A        40     1      41     F        7      52     59     C        29     60     89     A+       33     12     45     F          4.40
+23MCPC24   Tara           24     60     84     A        40     60     100    O        11     39     50     D        6      58     64     B        0      27     27     F          5.60
+
+STATISTICS
+CLASS-AVERAGE-PERCENTAGE: 65.53%
+LOWEST-PERCENTAGE:        59.60%
+HIGHEST-PERCENTAGE:       80.80%
+
+GRADE-CATEGORY-COUNTS
+O   :   8
+A+  :   1
+A   :  12
+B+  :   3
+B   :   5
+C   :   3
+D   :   3
+F   :  10
