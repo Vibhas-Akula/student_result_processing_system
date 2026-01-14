@@ -2,9 +2,9 @@
 #define READ_H
 
 void read_details(char* id, char* name, int* marks);
-void validate_id(char* id);
-void validate_name(char* name);
-void validate_marks(int* marks);
+int validate_id(char* id);
+int validate_name(char* name);
+int validate_marks(int* marks);
 
 #endif
 

@@ -21,9 +21,25 @@ int main(int argc, char **argv) {
         char name[30];
         int marks[10];
         if(sscanf(buffer, "%s %s %d %d %d %d %d %d %d %d %d %d", id, name, &marks[0], &marks[1], &marks[2], &marks[3], &marks[4], &marks[5], &marks[6], &marks[7], &marks[8], &marks[9]) == 12) {
-            validate_id(id);
-            validate_name(name);
-            validate_marks(marks);
+            int flag;
+            flag = validate_id(id);
+            while(!flag) {
+                printf("PROVIDE VALID ID: ");
+                scanf("%s", id);
+                flag = validate_id(id);
+            }
+            flag = validate_name(name);
+            while(!flag) {
+                printf("PROVIDE VALID NAME: ");
+                scanf("%s", name);
+                flag = validate_name(name);
+            }
+            flag = validate_marks(marks);
+            while(flag != -1) {
+                printf("(ID: %s) PROVIDE VALID MINOR AND MAJOR MARKS FOR SUBJECT-%d: ", id, (flag / 2) + 1);
+                scanf("%d %d", &marks[flag], &marks[flag + 1]);
+                flag = validate_marks(marks);
+            }
             read_details(id, name, marks);
         }
         else {
