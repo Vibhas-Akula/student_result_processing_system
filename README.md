@@ -11,4 +11,6 @@ A Simple C-based application for processing of the student results, from a raw i
   <li><h3>Computation:</h3> Computation of the total marks for each subject for a student and assigning the respective grades.</li>
   <li><h3>Output and Features:</h3> Computing the class average percentage, highest and lowest percentages, and the grade category counts.</li>
   <li><h3>Display Report:</h3> Output the report in an output file with the necessary statistics.</li>
-</ol>
+</ol><hr>
+<h1>Output</h1>
+<a href = "student_report.txt">View Student Results</a>
