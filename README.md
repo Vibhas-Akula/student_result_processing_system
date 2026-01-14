@@ -13,4 +13,4 @@ A Simple C-based application for processing of the student results, from a raw i
   <li><h3>Display Report:</h3> Output the report in an output file with the necessary statistics.</li>
 </ol><hr>
 <h1>Student Results</h1>
-<a href = "student_result_processing_system/blob/main/students_results.txt">View Student Results Here</a>
+<a href = "../blob/main/students_results.txt">View Student Results Here</a>
