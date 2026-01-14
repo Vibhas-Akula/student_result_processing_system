@@ -8,7 +8,7 @@ A Simple C-based application for processing of the student results, from a raw i
 <h1>Processing Procedure:</h1><br>
 <ol type = "i">
   <li><b>Input and Validation:</b> Checking whether the ID, NAME, and MARKS are valid or not (satisfying the valid constraints).</li>
-  <li><b>Computation:</b> Computation of the total marks for each subject for a student and assigning the respective grades.</li>\
+  <li><b>Computation:</b> Computation of the total marks for each subject for a student and assigning the respective grades.</li>
   <li><b>Output and Features:</b> Computing the class average percentage, highest and lowest percentages, and the grade category counts.</li>
   <li><b>Display Report:</b> Output the report in an output file with the necessary statistics.</li>
 </ol>
