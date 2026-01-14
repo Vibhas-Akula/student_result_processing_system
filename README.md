@@ -14,3 +14,7 @@ A Simple C-based application for processing of the student results, from a raw i
 </ol><hr>
 <h1>Student Results</h1>
 The results are stored in <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/students_results.txt">student_results.txt</a> file.
+<hr>
+<h1>Makefile Commands(Optional)</h1>
+make all: builds all the target object files and executables.
+make clean: removes the object files and executables.
