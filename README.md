@@ -15,6 +15,11 @@ A Simple C-based application for processing of the student results, from a raw i
 <h1>Student Results</h1>
 The results are stored in <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/students_results.txt">student_results.txt</a> file.
 <hr>
+<h1>Assumed Constraints</h1>
+<ul type = "disc">
+  <li>A maximum of 100 students can be only processed.</li>
+  <li>Each subject is assumed to carry 4 credits for the ease of calculating CGPA.</li>
+</ul><hr>
 <h1>Makefile Commands (Optional)</h1> 
 <h3>make all:</h3> builds all the target object files and executables.<br>
 <h3>make clean:</h3> removes the object files and executables.
