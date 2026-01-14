@@ -13,4 +13,4 @@ A Simple C-based application for processing of the student results, from a raw i
   <li><h3>Display Report:</h3> Output the report in an output file with the necessary statistics.</li>
 </ol><hr>
 <h1>Student Results</h1>
-The results are stored in the students_result.txt file.
+The results are stored in the <a href = "students_result.txt">STUDENT_RESULTS</a> file.
