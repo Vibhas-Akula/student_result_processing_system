@@ -7,25 +7,25 @@ A Simple C-based application for processing of the student results, from a raw i
 </ol><hr>
 <h1>Processing Procedure</h1>
 <ol type = "i">
-  <li><h4>Input and Validation:</h4> Checking whether the ID, NAME, and MARKS are valid or not (satisfying the valid constraints).</li>
-  <li><h4>Computation:</h4> Computation of the total marks for each subject for a student and assigning the respective grades.</li>
-  <li><h4>Output and Features:</h4> Computing the class average percentage, highest and lowest percentages, and the grade category counts.</li>
-  <li><h4>Display Report:</h4> Output the report in an output file with the necessary statistics.</li>
+  <li><h3>Input and Validation:</h3> Checking whether the ID, NAME, and MARKS are valid or not (satisfying the valid constraints).</li>
+  <li><h3>Computation:</h3> Computation of the total marks for each subject for a student and assigning the respective grades.</li>
+  <li><h3>Output and Features:</h3> Computing the class average percentage, highest and lowest percentages, and the grade category counts.</li>
+  <li><h3>Display Report:</h3> Output the report in an output file with the necessary statistics.</li>
 </ol>
 <h1>SYSTEM FILES</h1>
 <ul type = "disc">
-  <li>input_and_validate.c:<br>
+  <li><h3>input_and_validate.c:</h3><br>
     void read_details(char* id, char* name, int* marks);<br>
     void validate_id(char* id);<br>
     void validate_name(char* name);<br>
     void validate_marks(int* marks);
   </li>
-  <li>computation.c:<br>
+  <li><h3>computation.c:</h3><br>
     void compute_percentages();<br>
     void compute_grades();<br>
     void compute_cgpa();
   </li>
-  <li>output_feature.c:<br>
+  <li><h3>output_feature.c:</h3><br>
     float class_average();<br>
     float lowest_percentage();<br>
     float highest_percentage();<br>
