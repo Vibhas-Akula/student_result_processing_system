@@ -5,10 +5,31 @@ A Simple C-based application for processing of the student results, from a raw i
   <li>NAME (Only Alphabets), validation to check for digits or special characters.</li>
   <li>MARKS (Split as the Major and Minor marks for 5 subjects as a pair of two values), validation to check whether the marks lie in the region [0, 100].</li>
 </ol><hr>
-<h1>Processing Procedure:</h1>
+<h1>Processing Procedure</h1>
 <ol type = "i">
   <li><h4>Input and Validation:</h4> Checking whether the ID, NAME, and MARKS are valid or not (satisfying the valid constraints).</li>
   <li><h4>Computation:</h4> Computation of the total marks for each subject for a student and assigning the respective grades.</li>
   <li><h4>Output and Features:</h4> Computing the class average percentage, highest and lowest percentages, and the grade category counts.</li>
   <li><h4>Display Report:</h4> Output the report in an output file with the necessary statistics.</li>
 </ol>
+<h1>SYSTEM FILES</h1>
+<ul type = "disc">
+  <li>input_and_validate.c:<br>
+    void read_details(char* id, char* name, int* marks);<br>
+    void validate_id(char* id);<br>
+    void validate_name(char* name);<br>
+    void validate_marks(int* marks);
+  </li>
+  <li>computation.c:<br>
+    void compute_percentages();<br>
+    void compute_grades();<br>
+    void compute_cgpa();
+  </li>
+  <li>output_feature.c:<br>
+    float class_average();<br>
+    float lowest_percentage();<br>
+    float highest_percentage();<br>
+    void grade_category_counts();<br>
+    void display_report(char* output_file);
+  </li>
+</ul>
