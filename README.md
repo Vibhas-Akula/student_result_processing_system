@@ -13,4 +13,4 @@ A Simple C-based application for processing of the student results, from a raw i
   <li><h3>Display Report:</h3> Output the report in an output file with the necessary statistics.</li>
 </ol><hr>
 <h1>Student Results</h1>
-The results are stored in <a href = "[https://github.com/Vibhas-Akula/student_result_processing_system/main/blob/student_results.txt](https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/students_results.txt)">student_results.txt</a> file.
+The results are stored in <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/students_results.txt">student_results.txt</a> file.
