@@ -14,18 +14,18 @@ A Simple C-based application for processing of the student results, from a raw i
 </ol>
 <h1>SYSTEM FILES</h1>
 <ul type = "disc">
-  <li><h3>input_and_validate.c:</h3><br>
+  <li><h3>input_and_validate.c:</h3>
     void read_details(char* id, char* name, int* marks);<br>
     void validate_id(char* id);<br>
     void validate_name(char* name);<br>
     void validate_marks(int* marks);
   </li>
-  <li><h3>computation.c:</h3><br>
+  <li><h3>computation.c:</h3>
     void compute_percentages();<br>
     void compute_grades();<br>
     void compute_cgpa();
   </li>
-  <li><h3>output_feature.c:</h3><br>
+  <li><h3>output_feature.c:</h3>
     float class_average();<br>
     float lowest_percentage();<br>
     float highest_percentage();<br>
