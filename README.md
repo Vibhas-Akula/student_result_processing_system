@@ -5,6 +5,9 @@ A Simple C-based application for processing of the student results, from a raw i
   <li>NAME (Only Alphabets), validation to check for digits or special characters.</li>
   <li>MARKS (Split as the Major and Minor marks for 5 subjects as a pair of two values), validation to check whether the marks lie in the region [0, 100].</li>
 </ol><hr>
+<h1>Module Documentation</h1>
+Kindly Refer to the <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/module_documentation.pdf">Module Documentation </a>here.
+<hr>
 <h1>Processing Procedure</h1>
 <ol type = "i">
   <li><h3>Input and Validation:</h3> Checking whether the ID, NAME, and MARKS are valid or not (satisfying the valid constraints). Invalid Inputs are re-prompted towards the user.</li>
