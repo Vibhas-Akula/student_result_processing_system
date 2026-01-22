@@ -18,6 +18,9 @@ Kindly Refer to the <a href = "https://github.com/Vibhas-Akula/student_result_pr
 <h1>Student Results</h1>
 The results are stored in <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/students_results.txt">student_results.txt</a> file.
 <hr>
+<h1>Test Plan</h1>
+Test Cases: <a href = "https://github.com/Vibhas-Akula/student_result_processing_system/blob/main/test-plan-template.xlsx">Test Plan Template</a>.
+<hr>
 <h1>Assumed Constraints</h1>
 <ul type = "disc">
   <li>A maximum of 100 students can be only processed.</li>
