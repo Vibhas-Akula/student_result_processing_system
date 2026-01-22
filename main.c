@@ -1,8 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include "input_and_validate.h"
+#include "validation.h"
+#include "input.h"
 #include "computation.h"
 #include "output_feature.h"
+#include "display_report.h"
 
 int main(int argc, char **argv) {
     if(argc != 3) {
@@ -40,10 +42,10 @@ int main(int argc, char **argv) {
                 scanf("%d %d", &marks[flag], &marks[flag + 1]);
                 flag = validate_marks(marks);
             }
-            read_details(id, name, marks);
+            input(id, name, marks);
         }
         else {
-            printf("INCOMPLETE STUDENT DETAILS!\n");
+            printf("IMPROPER STUDENT DETAILS!\n");
             return 1;
         }
         compute_percentages();

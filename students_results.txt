@@ -11,18 +11,20 @@ ID         NAME                     SUBJECT-1                    SUBJECT-2      
 25MCMT45   Sia            40     60     100    O        9      33     42     F        22     60     82     A        0      0      0      F        35     41     76     A          5.20
 24MCPC11   Ishan          18     60     78     A        40     1      41     F        7      52     59     C        29     60     89     A+       33     12     45     F          4.40
 23MCPC24   Tara           24     60     84     A        40     60     100    O        11     39     50     D        6      58     64     B        0      27     27     F          5.60
+24MIMC40   Ram            10     37     47     F        18     26     44     F        30     49     79     A        35     56     91     O        32     53     85     A+         5.40
 
 STATISTICS
-CLASS-AVERAGE-PERCENTAGE: 65.53%
+CLASS-AVERAGE-PERCENTAGE: 65.90%
 LOWEST-PERCENTAGE:        59.60%
 HIGHEST-PERCENTAGE:       80.80%
 
 GRADE-CATEGORY-COUNTS
-O   :   8
-A+  :   1
-A   :  12
-B+  :   3
-B   :   5
-C   :   3
-D   :   3
-F   :  10
+    SUBJECT-1      SUBJECT-2      SUBJECT-3      SUBJECT-4      SUBJECT-5  
+O : 3              1              2              3              0              
+A+: 0              0              0              1              1              
+A : 4              1              4              0              4              
+B+: 1              1              0              0              1              
+B : 1              0              1              1              2              
+C : 0              2              1              0              0              
+D : 0              1              1              1              0              
+F : 1              4              1              4              2              

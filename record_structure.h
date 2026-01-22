@@ -17,6 +17,6 @@ typedef enum GRADE_INDICES {O, A_PLUS, A, B_PLUS, B, C, D, F} GRADE_INDICES;
 extern STUDENT student_records[100];
 extern int count;
 extern float percentages[100];
-extern int grade_counts[8];
+extern int grade_counts[8][5];
 
 #endif
